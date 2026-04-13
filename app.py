@@ -38,7 +38,7 @@ def load_model():
 model = load_model()
 
 # Title
-st.title("🌸 🌸 Iris Flower Species Prediction")
+st.title("🌸 Iris Flower Species Prediction")
 st.markdown("Enter the flower measurements to predict the species")
 
 # Input layout
