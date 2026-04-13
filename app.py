@@ -5,7 +5,7 @@ import pandas as pd
 
 # Page configuration
 st.set_page_config(
-    page_title="Iris Classifier",
+    page_title="Iris Flower Species Prediction",
     page_icon="🌸",
     layout="centered"
 )
