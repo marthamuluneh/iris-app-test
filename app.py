@@ -39,7 +39,7 @@ model = load_model()
 
 # Title
 st.title("🌸 Iris Flower Classifier")
-st.markdown("Predict the species of an iris flower based on its measurements.")
+st.markdown("Enter the flower measurements to predict the species")
 
 # Input layout
 col1, col2 = st.columns(2)
