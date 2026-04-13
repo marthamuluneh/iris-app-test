@@ -31,4 +31,4 @@ if st.button("🔮 Predict Species"):
         "Species": ["Iris-setosa", "Iris-versicolor", "Iris-virginica"],
         "Probability (%)": [round(p * 100, 2) for p in probabilities]
     })
-    st.bar_chart(prob_df.set_index("Species"))dex("Species"))
+    st.bar_chart(prob_df.set_index("Species"))
