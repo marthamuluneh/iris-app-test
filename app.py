@@ -65,10 +65,10 @@ if st.button("🔮 Predict Species"):
 
     # Species + image URLs
     species_map = {
-        0: ("🌱 Iris-setosa", "https://upload.wikimedia.org/wikipedia/commons/5/56/Iris_setosa_2.jpg"),
-        1: ("🌿 Iris-versicolor", "https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg"),
-        2: ("🌼 Iris-virginica", "https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg")
-    }
+    0: ("🌱 Iris-setosa", "https://upload.wikimedia.org/wikipedia/commons/a/a7/Iris_setosa.jpg"),
+    1: ("🌿 Iris-versicolor", "https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg"),
+    2: ("🌼 Iris-virginica", "https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg")
+}
 
     predicted_species, image_url = species_map[prediction]
 
